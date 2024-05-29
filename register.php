@@ -1,10 +1,9 @@
 <?php
 require_once('db.php');
-$email = $_POST['email'];
+$email = $_POST['email3'];
 $tel = $_POST['tel'];
 $pass = $_POST['pass'];
 $adres = $_POST['adres'];
-
 
 if(empty($email) || empty($tel) || empty($pass) || empty($adres)){
     echo "Заполните все поля";
@@ -17,6 +16,6 @@ else{
     else{
         echo "Ошибка: " . $conn->error;
     }
-    
+        
 }    
 ?>

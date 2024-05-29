@@ -34,7 +34,7 @@ $sql = "SELECT * FROM `new_table`;";
                         </li>
 
                         <li class="header_item">
-                            <a href="http://stackoverflow.com"><button class = "knopka_come"><p class = "come">Войти</p></button></a>
+                            <a href="com(ajax here).php"><button class = "knopka_come"><p class = "come">Войти</p></button></a>
                         </li>
 
                         <li class="header_item">
